@@ -12,6 +12,14 @@ export default {
     HelloWorld
   }
 }
+
+var start {
+  el: '#start';
+  data: {
+    message: 'Hello World'
+  }
+}
+
 </script>
 
 <style>
