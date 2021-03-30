@@ -4,11 +4,11 @@
 
 <script>
 
-var start {
-  el: '#start';
+var start = new Vue({
+  el: '#start',
   data: {
-    message: 'Hello World'
+    message: 'Hello World!'
   }
-}
+})
 
 </script>
