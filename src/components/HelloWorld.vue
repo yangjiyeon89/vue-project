@@ -1,14 +1,14 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
+  <div id="start">
+    {{ msg }}
   </div>
 </template>
 
 <script>
-export default {
-  name: 'HelloWorld',
-  props: {
-    msg: String
+var start {
+  el: '#start',
+  data: {
+    msg: 'Hello World'
   }
 }
 </script>
