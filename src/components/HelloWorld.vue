@@ -5,12 +5,12 @@
 </template>
 
 <script>
-var start {
+var start = new Vue({
   el: '#start',
   data: {
-    msg: 'Hello World'
+    message: 'Hello World!'
   }
-}
+})
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
